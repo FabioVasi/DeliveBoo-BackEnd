@@ -1,0 +1,31 @@
+@import '~bootstrap/scss/bootstrap';
+
+main {
+    background-image: url(../../public/assets/utility_image/food-seamless-background-vector-8224389.jpg);
+    min-height: calc(100vh - 85px);
+}
+
+#app_main {
+    min-height: calc(100vh - 68px);
+}
+
+.style_box {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+#sidebarMenu {
+    a:hover {
+        background-color: #6C757D;
+    }
+}
+/*
+.check_list{
+    height: calc(25vh);
+}
+
+.check_list::-webkit-scrollbar {
+    display: none;
+
+}
+*/
